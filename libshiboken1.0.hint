@@ -1,0 +1,6 @@
+category: Python
+requires: libgcc1 libstdc++6 python
+external-source: shiboken
+sdesc: "PySide Python bindings generator (runtime library)"
+ldesc: "Python bindings generator that uses API Extractor and outputs 
+CPython code."
