@@ -3,7 +3,6 @@ inherit qt4-cmake python
 DESCRIPTION="PySide Python bindings generator"
 HOMEPAGE="http://www.pyside.org/"
 SRC_URI="http://www.pyside.org/files/${P}.tar.bz2"
-PATCH_URI="1.0.0-cygwin.patch"
 
 PKG_NAMES="${PN} lib${PN}1.0"
 shiboken_CONTENTS="usr/bin/shiboken.exe usr/include/ usr/lib/ usr/share/"
