@@ -1,5 +1,0 @@
-category: Python
-requires: libshiboken1.1 libgcc1 libQtCore4 libQtXml4 libQtXmlPatterns4 libstdc++6 libxml2 libxslt
-sdesc: "PySide Python bindings generator"
-ldesc: "Python bindings generator that uses API Extractor and outputs 
-CPython code."

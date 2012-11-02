@@ -1,0 +1,16 @@
+inherit qt4-cmake python
+
+NAME="shiboken"
+VERSION=1.1.2
+RELEASE=1
+CATEGORY="Devel Python"
+SUMMARY="PySide Python bindings generator"
+DESCRIPTION="Python bindings generator that uses a built-in API extractor
+and outputs CPython code."
+HOMEPAGE="http://qt-project.org/wiki/PySide"
+SRC_URI="http://qt-project.org/uploads/pyside/shiboken-${VERSION}.tar.bz2"
+
+PKG_NAMES="${PN} lib${PN}1.1"
+shiboken_CONTENTS="usr/bin/shiboken.exe usr/include/ usr/lib/ usr/share/"
+libshiboken1_1_SUMMARY="Support library for Shiboken-generated bindings"
+libshiboken1_1_CONTENTS="usr/bin/cygshiboken-python${PYTHON_VERSION}-1.1.dll"
