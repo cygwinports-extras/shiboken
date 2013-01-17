@@ -2,7 +2,7 @@ inherit qt4-cmake python
 
 NAME="shiboken"
 VERSION=1.1.2
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel Python"
 SUMMARY="PySide Python bindings generator"
 DESCRIPTION="Python bindings generator that uses a built-in API extractor
